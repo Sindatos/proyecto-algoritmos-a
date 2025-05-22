@@ -3,7 +3,7 @@
 #include "include/grafo.h"
 #include "priority_queue.h"
 #include <string>
-
+//a
 Grafo::Grafo(const std::string& path) : parser(path) {
     parser.leer();
     nodos = parser.getNodos();
